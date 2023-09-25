@@ -1,0 +1,32 @@
+--Задание 3:
+--Select * from Employees
+--Where job_id = 'FI_ACCOUNT';
+
+--Задание 4:
+--Select * from Employees
+--Where salary < 12000;
+
+--Задание 5:
+--Select * from Employees
+--Where department_id in (70, 80, 100);
+
+--Задание 6:
+--Select * from Employees
+--Where first_name Like 'D%';
+
+--Задание 7:
+--Select * from Employees
+--Where employee_id between 108 and 143;
+
+--Задание 8:
+--Select * from Employees
+--Where phone Like '590%'
+
+--Задание 9:
+--Select * from Employees
+--Where salary > 1000 and job_id = 'IT_PROG' and phone Like '590%'
+
+--Задание 10:
+--Select first_name, last_name, salary
+--From Employees
+--Where salary between 8000 and 10000 and commission_pct not null;
